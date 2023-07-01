@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Montserrat:wght@100;200;300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(239, 203, 156);
+  height: 18vh;
+}
+
+header img{
+    width: 4vw;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 18vw;
+    color: #ffff;
+}
+h3{
+
+    font-size: 35px;
+    font-weight: 200;
+    font-family: "Caveat", sans-serif;
+}
+ul{
+    display: flex;
+    justify-content:space-around;
+    width: 40vw;
+    font-size: 18px;
+}
+
+a, li{
+    display: flex;
+    text-decoration: none;
+    color: #ffff;
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    text-shadow: rgb(106, 120, 150) 2px 2px 1px;
+}
+a:hover{
+    color: #0e3e10;
+    transition: all 1s ease;
+}
+.container {
+    height: 115vh;
+    width: 100%;
+    background: linear-gradient(to right, #93C572 70%, #C8EBB1 30%);
+    position: relative;
+    overflow: hidden;
+}
+.container1{
+    position: absolute;
+    top: 0;
+    right: 30%;
+}
