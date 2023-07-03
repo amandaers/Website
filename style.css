@@ -50,12 +50,19 @@ a:hover{
     color: #0e3e10;
     transition: all 1s ease;
 }
-.container {
+main{
     height: 115vh;
     width: 100%;
     background: linear-gradient(to right, #93C572 70%, #C8EBB1 30%);
     position: relative;
     overflow: hidden;
+}
+.container{
+    width: 60vw;
+    padding-top: 100px;
+    margin-left: 2rem;
+    align-items: center;
+    justify-content: space-around;
 }
 .container1{
     position: absolute;
@@ -66,8 +73,7 @@ a:hover{
     display:flex;
     align-items: center;
     justify-content: space-around;
-    width: 60%;
-    
+    width: 60vw;
 }
 .conteudo img{
     width: 40vw;
