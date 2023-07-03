@@ -62,3 +62,13 @@ a:hover{
     top: 0;
     right: 30%;
 }
+.conteudo{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+    
+}
+.conteudo img{
+    width: 40vw;
+}
