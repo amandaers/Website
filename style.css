@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  cursor: pointer;
 }
 header{
   display: flex;
@@ -85,8 +86,8 @@ h2{
     font-weight: 200;  
 }
 #paragrafo{
-    font-family: "Work+Sans",sans-serif;
-    font-weight: 100;
+    font-family:"Dosis", sans-serif;
+    font-weight: 300;
     font-size: 1.2rem;
     height: 30px;
 }
@@ -101,8 +102,11 @@ button{
     background-color: #494234;;
     color: white;
     padding: 0.2rem 2rem 0.2rem 1rem;
+    font-family:"Dosis", sans-serif;
 }
-
+button:hover{
+    background-color: #bccab3;
+}
 .right{
     position: absolute;
     right: 8%;
