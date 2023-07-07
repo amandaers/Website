@@ -87,15 +87,14 @@ h2{
 #paragrafo{
     font-family: "Work+Sans",sans-serif;
     font-weight: 100;
-    width: 200px;
-    border: 2px solid;
-    font-size: 1.08rem;
+    font-size: 1.2rem;
+    height: 60px;
 }
 
 button{
     font-size: 18px;
     border-radius: 0 45% 45% 0;
-    background-color: #494234;
+    background-color: #494234;;
     color: white;
     padding: 0.2rem 2rem 0.2rem 1rem;
 }
