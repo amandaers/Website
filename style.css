@@ -88,16 +88,21 @@ h2{
     font-family: "Work+Sans",sans-serif;
     font-weight: 100;
     font-size: 1.2rem;
-    height: 60px;
+    height: 30px;
 }
 
 button{
+    margin-top: 2.5rem;
+    outline: none;
+    border: none;
     font-size: 18px;
+    padding: 0.5rem 2.5rem 0.5rem 1rem;
     border-radius: 0 45% 45% 0;
     background-color: #494234;;
     color: white;
     padding: 0.2rem 2rem 0.2rem 1rem;
 }
+
 .right{
     position: absolute;
     right: 8%;
