@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Montserrat:wght@100;200;300;400&family=Work+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dosis:wght@200&family=Montserrat:wght@100;200;300;400&family=Work+Sans:wght@100&display=swap');
 
 * {
   margin: 0;
@@ -10,13 +10,17 @@ header{
   justify-content: space-between;
   align-items: center;
   background-color: rgb(239, 203, 156);
-  height: 18vh;
+  height: 15vh;
 }
 
 header img{
     width: 4vw;
 }
-
+h3{
+    font-size: 35px;
+    font-weight: 200;
+    font-family:"Caveat", sans-serif;
+}
 .cabecalho{
     display: flex;
     justify-content: space-around;
@@ -24,11 +28,7 @@ header img{
     width: 18vw;
     color: #ffff;
 }
-h3{
-    font-size: 35px;
-    font-weight: 200;
-    font-family: "Caveat", sans-serif;
-}
+
 ul{
     display: flex;
     justify-content:space-around;
@@ -42,15 +42,15 @@ a, li{
     color: #ffff;
     list-style: none;
     font-family: "Montserrat", sans-serif;
-    font-weight: 100;
-    text-shadow: rgb(106, 120, 150) 2px 2px 1px;
+    font-weight: 300;
+    
 }
 a:hover{
-    color: #0e3e10;
+    color: #574337;
     transition: all 1s ease;
 }
 main{
-    height: 115vh;
+    height: 85vh;
     width: 100%;
     background: linear-gradient(to right, #93C572 70%, #C8EBB1 30%);
     position: relative;
@@ -75,24 +75,29 @@ main{
     width: 60vw;
 }
 .conteudo img{
-    width: 40vw;
+    width: 32vw;
 }
 h2{
     color:#494234;
-    font-size: 60px;
+    font-size: 70px;
     letter-spacing: 3px;
+    width: 45vh;
+    font-weight: 200;  
 }
-p{
-    font-size:20px;
-    letter-spacing: 1px;
+#paragrafo{
+    font-family: "Work+Sans",sans-serif;
+    font-weight: 100;
+    width: 200px;
+    border: 2px solid;
+    font-size: 1.08rem;
 }
+
 button{
     font-size: 18px;
     border-radius: 0 45% 45% 0;
     background-color: #494234;
     color: white;
     padding: 0.2rem 2rem 0.2rem 1rem;
-    margin-top: 10px;
 }
 .right{
     position: absolute;
@@ -102,9 +107,8 @@ button{
 .box{
     display: flex;
     align-items:center;
-    width: 350px;
 }
-.image img{
+.right .box .image img{
     width: 70%;
 }
 .image{
@@ -118,10 +122,14 @@ button{
     justify-content: center;
     transition: 0.5s;
 }
-h4{
-    font-size: 1.2rem;
-    font-family: "Dosis";
+
+.image:hover{
+    background-color: rgba(73,66,52,0.7);
 }
-p{
-    font-family: "Work+Sans",sans-serif;
+.box .inner-box{
+    margin: 1.5rem 0 0 1rem;
+    font-family: "Dosis",sans-serif ;
+}
+.box .inner-box p{
+    font-size: 1rem;
 }
