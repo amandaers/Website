@@ -141,3 +141,15 @@ button:hover{
 .box .inner-box p{
     font-size: 1rem;
 }
+@media (max-width:500px) {
+    header{
+        flex-direction: column;
+        height: 20vh;
+    }
+    h3{
+        font-size: 2rem;
+    }
+    .cabecalho{
+        font-size: 1rem;
+    }
+}
