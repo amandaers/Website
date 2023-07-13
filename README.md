@@ -10,10 +10,10 @@ No site da Divino Grão, o usuário encontrará um design que permitirá ter ace
 
 ## Funcionalidades
 - **Home**- Aqui voltará pra página inicial do site
-- **Products**-Informações sobre todos os produtos disponíveis
--**Service**-Serviços oferecidos pela empresa
--**Types**-Disponibiliza lista/ catálogo dos grãos disponníveis organizados em categorias
--**FAQ**-Sessão que disponibiliza dá sua opinião ou sugestões
+- **Products**- Informações sobre todos os produtos disponíveis
+- **Service**- Serviços oferecidos pela empresa
+- **Types**- Disponibiliza lista/ catálogo dos grãos disponníveis organizados em categorias
+- **FAQ**- Sessão que disponibiliza dá sua opinião ou sugestões
 
 ## 💼 Tecnologias utilizadas
 
