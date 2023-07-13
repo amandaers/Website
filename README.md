@@ -3,7 +3,7 @@
 </h1>
 A proposta do projeto é um site dedicado a fornecer informações e recursos sobre uma variedade de grãos para amante da culinária de uma forma saúdavel.
 
-##Visão Geral
+## Visão Geral
 No site da Divino Grão, o usuário encontrará um design que permitirá ter acesso ao catálogo dos produtos.
 
 ![Resultado final do projeto](assets/final.png)
